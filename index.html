@@ -24,6 +24,7 @@
     <li>C is bad. Go back to A.</li>
     <li>At A, you have already tried C, and it failed. Try D.</li>
     <li>D is bad. Go back to A.</li>
+      <li>helloA.</li>
     <li> At A, you have no options left to try. Go back to Root.</li>
     <li>At Root, you have already tried A. Try B.</li>
     <li>At B, your options are E and F. Try E.</li>
@@ -33,7 +34,7 @@
 <hr>
 <h2> The backtracking algorithm.</h2>
 <fieldset>
-<pre style="color: blue;">
+<pre style="color: rgb(0, 221, 255);">
     boolean solve(Node n) { 
         if n is a leaf node {
              if the leaf is a goal node, return true
